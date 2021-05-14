@@ -8,11 +8,13 @@ import Footer from "./components/footer";
 class App extends Component {
   render() {
     return (
-      <div className="container">
-        <Nav />
-        <Body />
-        <Footer />
-      </div>
+      <body>
+        <div>
+          <Nav />
+          <Body />
+          <Footer />
+        </div>
+      </body>
     );
   }
 }

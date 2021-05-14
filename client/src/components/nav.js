@@ -17,7 +17,7 @@ class Nav extends React.Component {
           </button>
         </div>
         <div className="col-6">
-          <img className="selfimg" src="/Assets/Images/meagain3.png" />
+          <img className="selfimg" src="./Assets/Images/meagain3.png" />
         </div>
       </div>
     );

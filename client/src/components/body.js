@@ -4,7 +4,7 @@ import "./style.css";
 class Body extends React.Component {
   render() {
     return (
-      <div>
+      <div className="blkbkg">
         <div className="row aboutmerow">
           <div className="col-12 aboutme">
             <h2>About Me:</h2>
@@ -59,13 +59,13 @@ class Body extends React.Component {
             </p>
           </div>
           <div className="col-4">
-            <img className="projectimg" src="/Assets/Images/lyricity.png" />
+            <img className="projectimg" src="./Assets/Images/lyricity.png" />
             <h3 className="aboutmerow">
               <a href="https://mlcohan.github.io/team9/">Lyricity</a>
             </h3>
           </div>
           <div className="col-4">
-            <img className="projectimg" src="/Assets/Images/password.PNG" />
+            <img className="projectimg" src="./Assets/Images/password.PNG" />
             <h3 className="aboutmerow">
               <a href="https://ashley-ag.github.io/03-Password-Generator/">
                 Password Generator
@@ -73,7 +73,7 @@ class Body extends React.Component {
             </h3>
           </div>
           <div className="col-4">
-            <img className="projectimg" src="/Assets/Images/weather.png" />
+            <img className="projectimg" src="./Assets/Images/weather.png" />
             <h3 className="aboutmerow">
               <a href="https://ashley-ag.github.io/WeatherNearYou/">
                 Weather Application
