@@ -1,0 +1,68 @@
+.header {
+  text-align: center;
+  background: pink;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+body {
+  background-color: black;
+}
+
+.aboutmerow {
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.aboutme {
+  padding: 20px;
+  text-align: center;
+}
+
+.selfimg {
+  width: auto;
+  height: 50rem;
+  padding: 20px;
+  float: left;
+}
+
+.fab {
+  color: white;
+  font-size: 10rem;
+  padding-bottom: 20px;
+}
+
+.fab:hover {
+  color: pink;
+}
+
+.icons {
+  text-align: center;
+}
+
+.row {
+  padding: 20px;
+}
+
+.projectimg {
+  height: 200px;
+  width: 400px;
+  padding: 20px;
+  align-items: center;
+}
+
+.skills {
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: pink;
+}
