@@ -1,6 +1,6 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from "react";
-import "./style.css";
+import "./components/style.css";
 import Body from "./components/body";
 import Nav from "./components/nav";
 import Footer from "./components/footer";

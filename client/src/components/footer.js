@@ -1,7 +1,8 @@
 import React from "react";
+import "./style.css";
 
-var Footer = React.createClass({
-  render: function () {
+class Footer extends React.Component {
+  render() {
     return (
       <div className="row footer">
         <div className="col-12">
@@ -9,7 +10,7 @@ var Footer = React.createClass({
         </div>
       </div>
     );
-  },
-});
+  }
+}
 
 export default Footer;

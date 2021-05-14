@@ -1,7 +1,8 @@
 import React from "react";
+import "./style.css";
 
-var Body = React.createClass({
-  render: function () {
+class Body extends React.Component {
+  render() {
     return (
       <div>
         <div className="row aboutmerow">
@@ -82,7 +83,7 @@ var Body = React.createClass({
         </div>
       </div>
     );
-  },
-});
+  }
+}
 
 export default Body;

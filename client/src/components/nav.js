@@ -1,7 +1,8 @@
 import React from "react";
+import "./style.css";
 
-var Nav = React.createClass({
-  render: function () {
+class Nav extends React.Component {
+  render() {
     return (
       <div className="row header">
         <div className="col-6">
@@ -20,7 +21,7 @@ var Nav = React.createClass({
         </div>
       </div>
     );
-  },
-});
+  }
+}
 
 export default Nav;
