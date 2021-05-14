@@ -1,3 +1,5 @@
+import React from "react";
+
 var Nav = React.createClass({
   render: function () {
     return (

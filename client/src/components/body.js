@@ -1,3 +1,5 @@
+import React from "react";
+
 var Body = React.createClass({
   render: function () {
     return (
