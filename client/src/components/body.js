@@ -59,13 +59,21 @@ class Body extends React.Component {
             </p>
           </div>
           <div className="col-4">
-            <img className="projectimg" src="./Assets/Images/lyricity.png" />
+            <img
+              className="projectimg"
+              src={require("./images/lyricity.png")}
+              alt={"Lyricity"}
+            />
             <h3 className="aboutmerow">
               <a href="https://mlcohan.github.io/team9/">Lyricity</a>
             </h3>
           </div>
           <div className="col-4">
-            <img className="projectimg" src="./Assets/Images/password.PNG" />
+            <img
+              className="projectimg"
+              src={require("./images/password.PNG")}
+              alt={"Password"}
+            />
             <h3 className="aboutmerow">
               <a href="https://ashley-ag.github.io/03-Password-Generator/">
                 Password Generator
@@ -73,7 +81,11 @@ class Body extends React.Component {
             </h3>
           </div>
           <div className="col-4">
-            <img className="projectimg" src="./Assets/Images/weather.png" />
+            <img
+              className="projectimg"
+              src={require("./images/weather.png")}
+              alt={"Weather"}
+            />
             <h3 className="aboutmerow">
               <a href="https://ashley-ag.github.io/WeatherNearYou/">
                 Weather Application
